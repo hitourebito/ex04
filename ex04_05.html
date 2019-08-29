@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <form action="ex04_05.php" method="POST">
+      氏名:<input type="text" name="name" value=""><br/>
+      住所:<textarea name="jusyo" cols="40" rows="5"></textarea><br/>
+      <div>年齢: <input type="radio" name="age" value="20歳未満">20歳未満</div>
+      <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="age" value="20歳代">20歳代</div>
+      <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="age" value="30歳代">30歳代</div>
+      <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="age" value="40歳代">40歳代</div>
+      <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="age" value="50歳以上">50歳以上</div>
+      <div>同居: <input type="checkbox" name="family[]" value="配偶者">配偶者
+      <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="family[]" value="子ども">子ども
+      <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="family[]" value="孫">孫
+      <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="family[]" value="兄弟姉妹">兄弟姉妹
+      <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="family[]" value="親">親
+      <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="family[]" value="祖父祖母">祖父・祖母
+      <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="family[]" value="親類">親類
+      <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="family[]" value="友人">友人
+      <br/>
+      <input type="submit" name="btn" value="送信">
+    </form>
+  </body>
+</html>
